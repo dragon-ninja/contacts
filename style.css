@@ -1,0 +1,258 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contacts-us {
+    text-align: center;
+}
+
+.contacts-us>h2 {
+    font-family: Poppins;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 74px;
+    color: #4540D9;
+}
+
+.contacts-us>p {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #717171;
+
+}
+
+.contact-inner-div {
+    max-width: 1370px;
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    padding: 30px;
+}
+
+.aside-contact {
+    max-width: 600px;
+    width: 100%;
+    background: #4540D9;
+    padding: 40px;
+    border-radius: 12.8px 12.8px 0 12.8px;
+    position: relative;
+    overflow: hidden;
+    height: 799px;
+}
+
+.Contact-Information h2 {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+.Contact-Information>p {
+    color: #C9C9C9;
+
+}
+
+.Contact-Information-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin-top: 70px;
+
+
+}
+
+.Contact-Information-text .div {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    align-items: center;
+
+}
+
+.Contact-Information-text .fa-solid {
+    height: 60px;
+    width: 60px;
+    margin-right: 24px;
+    height: 19.759197235107422px;
+    width: 24.69899559020996px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.Contact-Information-text .fa-regular {
+    height: 19.759197235107422px;
+    width: 24.69899559020996px;
+    color: #FFFFFF;
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.Contact-Information-text>p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.circle-div1 {
+    position: absolute;
+    right: -140px;
+    bottom: -140px;
+    background: #C3C0F1;
+    height: 332.2015075683594px;
+    width: 332.2015075683594px;
+    border-radius: 100%;
+    z-index: 1;
+
+}
+
+.circle-div2 {
+    position: absolute;
+    height: 150.42308044433594px;
+    width: 150.42308044433594px;
+    border-radius: 100%;
+    background: #F1F1FB;
+    right: 70px;
+    bottom: 70px;
+
+
+}
+
+.social-icon-div {
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.social-icon-div .fa-brands {
+    height: 37.819397926330566px;
+    width: 37.524248123168945px;
+    border-radius: 50%;
+    color: #1B1B1B;
+    background: #FFFFFF;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.social-icon-div .fa-solid {
+    height: 37.819397926330566px;
+    width: 37.524248123168945px;
+    border-radius: 50%;
+    color: #1B1B1B;
+    background: #FFFFFF;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon-div .fa-solid:hover,
+.social-icon-div .fa-brands:hover {
+    background: #1B1B1B;
+    color: #FFFFFF;
+}
+
+.bside-contact {
+    max-width: 700PX;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+.form-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-div div {
+    max-width: 300px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+form input[ type="text"],
+input[ type="number"] {
+    outline: none;
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #8D8D8D;
+    padding-top: 10px;
+
+}
+
+.form-div label {
+    color: #000000;
+    margin-top: 30px;
+}
+.form-div textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #8D8D8D;
+    resize: none;
+    padding-top: 10px;
+}
+
+form input[ type="text"]:focus,
+input[ type="number"]:focus {
+    color: #8D8D8D;
+
+}
+
+.send-massage {
+    padding-top: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.send-massage button {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    padding: 8px 35px;
+    background: #4540D9;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+@media only screen and (max-width:998px){
+    .contact-inner-div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
